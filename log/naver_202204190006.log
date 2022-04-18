@@ -1,0 +1,12 @@
+[2022-04-19 00:06:39,423][INFO] https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004821420
+[2022-04-19 00:06:39,425][INFO] 국토부-농식품부-해수부 '빈집 관리' 맞손
+[2022-04-19 00:06:39,426][INFO] 2022-04-18 06:01:00
+[2022-04-19 00:06:39,427][INFO] defaultdict(<class 'list'>, {'title': "국토부-농식품부-해수부 '빈집 관리' 맞손", 'url': 'https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004821420', 'reg_date': datetime.datetime(2022, 4, 18, 6, 1), 'comments': ['70년대에 신고만으로 건축했던 시골집이  재건축하려니 법률상하자가 있다며\n  건축허가가 나질않았습니다\n  시골집에 살고싶어도~', '빈집 사서 주말 농장으로 이용하려도 일가구 이주택이라 안된다...이것부터 고쳐라...10 만  빈집을 주말 주택으로만 써도 매주 수십만이 지방에 북저거린다.']})
+[2022-04-19 00:06:40,791][INFO] https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=100&oid=001&aid=0013119389
+[2022-04-19 00:06:40,791][INFO] 빈집관리 역량 모은다…농식품부·국토부·해수부 업무협약
+[2022-04-19 00:06:40,792][INFO] 2022-04-18 06:01:00
+[2022-04-19 00:06:40,792][INFO] defaultdict(<class 'list'>, {'title': '빈집관리 역량 모은다…농식품부·국토부·해수부 업무협약', 'url': 'https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=100&oid=001&aid=0013119389', 'reg_date': datetime.datetime(2022, 4, 18, 6, 1), 'comments': []})
+[2022-04-19 00:06:42,211][INFO] https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=421&aid=0006033425
+[2022-04-19 00:06:42,212][INFO] 국토부, 유럽철도국과 '철도 안전 기술·규제' 협력 체결
+[2022-04-19 00:06:42,212][INFO] 2022-04-17 11:00:00
+[2022-04-19 00:06:42,213][INFO] defaultdict(<class 'list'>, {'title': "국토부, 유럽철도국과 '철도 안전 기술·규제' 협력 체결", 'url': 'https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=421&aid=0006033425', 'reg_date': datetime.datetime(2022, 4, 17, 11, 0), 'comments': []})

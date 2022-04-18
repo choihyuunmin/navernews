@@ -140,7 +140,7 @@ class Crawler:
             session.add(add_article)
             if jquery:
                 result = self.parsing(title, jquery, reg_date, url)
-        return result
+            yield result
 
 
 if __name__ == '__main__':
@@ -148,5 +148,5 @@ if __name__ == '__main__':
         print("Please input keyword")
 
     crawler = Crawler()
-    crawler.main()
+    result = crawler.main()
     session.commit()
