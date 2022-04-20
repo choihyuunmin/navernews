@@ -104,8 +104,8 @@ class Crawler:
             self.logger.error(e, "DOCUMENT FORMAT IS INCORRET")
             pass
 
-        except:
-            pass
+        # except:
+        #     pass
 
         return title, jquery, reg_date 
 
@@ -140,7 +140,9 @@ class Crawler:
             session.add(add_article)
             if jquery:
                 result = self.parsing(title, jquery, reg_date, url)
-            yield result
+                add_comment = Comments(comments=result["comments"], reg_date=result["reg_date"])
+                session.add(add_comment)
+            return result
 
 
 if __name__ == '__main__':

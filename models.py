@@ -17,7 +17,7 @@ class Articles(Base):
 
 class Comments(Base):
     __tablename__ = "tb_comment"
-    id = Column(Integer, ForeignKey("tb_article.id"), primary_key=True, nullable=False)
+    id = Column(Integer, Sequence('seq_article'), primary_key=True, nullable=False)
     comments = Column(String(1024), nullable=False)
     reg_date = Column(DateTime(timezone=True))
 

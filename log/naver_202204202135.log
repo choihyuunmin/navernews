@@ -1,0 +1,4 @@
+[2022-04-20 21:35:56,388][INFO] https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004823087
+[2022-04-20 21:35:56,389][INFO] 자율주행 BRT 6월 세종에서 첫 선... 국토부, 전용차량 종류 고시
+[2022-04-20 21:35:56,389][INFO] 2022-04-20 11:01:00
+[2022-04-20 21:35:56,390][INFO] defaultdict(<class 'list'>, {'title': '자율주행 BRT 6월 세종에서 첫 선... 국토부, 전용차량 종류 고시', 'url': 'https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004823087', 'reg_date': datetime.datetime(2022, 4, 20, 11, 1), 'comments': []})

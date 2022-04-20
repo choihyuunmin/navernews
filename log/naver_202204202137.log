@@ -1,0 +1,10 @@
+[2022-04-20 21:37:42,329][INFO] https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004823087
+[2022-04-20 21:37:42,329][INFO] 자율주행 BRT 6월 세종에서 첫 선... 국토부, 전용차량 종류 고시
+[2022-04-20 21:37:42,330][INFO] 2022-04-20 11:01:00
+[2022-04-20 21:37:42,331][INFO] defaultdict(<class 'list'>, {'title': '자율주행 BRT 6월 세종에서 첫 선... 국토부, 전용차량 종류 고시', 'url': 'https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004823087', 'reg_date': datetime.datetime(2022, 4, 20, 11, 1), 'comments': []})
+[2022-04-20 21:37:43,332][INFO] BEGIN (implicit)
+[2022-04-20 21:37:43,335][INFO] INSERT INTO tb_article (id, title, url, reg_date) VALUES (nextval('seq_article'), %(title)s, %(url)s, %(reg_date)s) RETURNING tb_article.id
+[2022-04-20 21:37:43,346][INFO] [generated in 0.01089s] {'title': '자율주행 BRT 6월 세종에서 첫 선... 국토부, 전용차량 종류 고시', 'url': 'https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=014&aid=0004823087', 'reg_date': datetime.datetime(2022, 4, 20, 11, 1)}
+[2022-04-20 21:37:43,350][INFO] INSERT INTO tb_comment (comments, reg_date) VALUES (%(comments)s, %(reg_date)s)
+[2022-04-20 21:37:43,351][INFO] [generated in 0.00060s] {'comments': [], 'reg_date': datetime.datetime(2022, 4, 20, 11, 1)}
+[2022-04-20 21:37:43,353][INFO] ROLLBACK
